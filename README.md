@@ -1,6 +1,6 @@
 # Legal Reasoning Skills for Claude
 
-Seven skills that teach Claude to review litigation documents the way a careful lawyer does: find the weak step, choose the response, and check every authority before anything gets filed.
+Seven skills that teach Claude to review litigation documents the way a careful lawyer does: find the weak step, choose the response, and check every authority.
 
 ## Why this exists
 
