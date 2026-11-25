@@ -6,7 +6,7 @@ Seven skills that teach Claude to review litigation documents the way a careful 
 
 AI is cool. Mostly. It can save time, read hundreds of pages faster than you or I can, and pedantically check your work each time in a way all but the most obsessed would fail at. However, no one wants to be the guy who files something with a hallucinated case or misses something important because you outsourced your critical thinking. 
 
-These skills are built around that problem. Every skill sorts anything that depends on a source into one of three labels: **Verified** (traced to a source that was actually inspected, with its location), **Contradicted** (the source says otherwise), or **Unverified** (nobody has checked yet, and here is what would settle it). Nothing moves from Unverified to Verified because it sounds right. The last two skills in the sequence exist only to produce a list a lawyer can check by hand.
+These skills are built around that problem. An assistant instead of a black box. Every skill sorts anything that depends on a source into one of three labels: **Verified** (traced to a source that was actually inspected, with its location), **Contradicted** (the source says otherwise), or **Unverified** (nobody has checked yet, and here is what would settle it). Nothing moves from Unverified to Verified because it sounds right. The last two skills in the sequence exist only to produce a list a lawyer can check by hand.
 
 The rest of the suite does analysis. Reconstructing what an argument needs the reader to accept, finding the spots a skeptical judge could refuse, and suggests a fix focused on persuasive impact. None of that is worth much if the citations underneath are fiction, so the checking is built in at the start and end.
 
