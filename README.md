@@ -78,7 +78,7 @@ See [SOURCES.md](SOURCES.md).
 
 ## About
 
-I'm Rick, a law student at Baylor Law School. I use AI to become a better lawyer, and to do so responsibly. That currently seems to revolve around making the model show its work: every skill here assumes Claude can be wrong and makes it state explicitly the spots where that can result in big issues. Questions and criticism are welcome.
+I'm Rick, a law student at Baylor Law School. I use AI to be a better student and burgeoning lawyer, and do so responsibly. That currently seems to revolve around making the model show its work: everything here assumes Claude can be wrong and makes it state explicitly where that can create issues. Questions and criticism are welcome.
 
 ## License
 
