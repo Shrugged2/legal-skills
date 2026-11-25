@@ -4,7 +4,7 @@ Seven skills that teach Claude to review litigation documents the way a careful 
 
 ## Why this exists
 
-AI is cool. Mostly. It can save time, read hundreds of pages faster than you or I can, and pedantically check your work each time in a way all but the most obsessed would fail at. However, noone wants to be the guy who files a hallucinated case or misses something important because you outsourced your critical thinking. 
+AI is cool. Mostly. It can save time, read hundreds of pages faster than you or I can, and pedantically check your work each time in a way all but the most obsessed would fail at. However, no one wants to be the guy who files something with a hallucinated case or misses something important because you outsourced your critical thinking. 
 
 These skills are built around that problem. Every skill sorts anything that depends on a source into one of three labels: **Verified** (traced to a source that was actually inspected, with its location), **Contradicted** (the source says otherwise), or **Unverified** (nobody has checked yet, and here is what would settle it). Nothing moves from Unverified to Verified because it sounds right. The last two skills in the sequence exist only to produce a list a lawyer can check by hand.
 
