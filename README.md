@@ -4,13 +4,13 @@ Seven skills that teach Claude to review litigation documents the way a careful 
 
 ## Why this exists
 
-The best-known story about AI in legal practice is a sanctions order. In *Mata v. Avianca, Inc.*, No. 22-cv-1461 (S.D.N.Y. June 22, 2023), lawyers filed a brief citing cases that did not exist. A language model will produce a confident citation as readily as a real one. It has no internal signal for the difference.
+AI is cool. Mostly. It can save time, read hundreds of pages faster than you or I can, and pedantically check your work each time in a way all but the most obsessed would fail at. However, noone wants to be the guy who files a hallucinated case or misses something important because you outsourced your critical thinking. 
 
 These skills are built around that problem. Every skill sorts anything that depends on a source into one of three labels: **Verified** (traced to a source that was actually inspected, with its location), **Contradicted** (the source says otherwise), or **Unverified** (nobody has checked yet, and here is what would settle it). Nothing moves from Unverified to Verified because it sounds right. The last two skills in the sequence exist only to produce a list a lawyer can check by hand.
 
-The rest of the suite does the analysis. It reconstructs what an argument needs the reader to accept, finds the step a skeptical judge could refuse, and picks the persuasive move that answers it. None of that is worth much if the citations underneath are fiction, so the checking is built in from the start.
+The rest of the suite does analysis. Reconstructing what an argument needs the reader to accept, finding the spots a skeptical judge could refuse, and suggests a fix focused on persuasive impact. None of that is worth much if the citations underneath are fiction, so the checking is built in at the start and end.
 
-## The skills
+## Skills
 
 | Skill | What it does | Use it when |
 |---|---|---|
@@ -24,7 +24,7 @@ The rest of the suite does the analysis. It reconstructs what an argument needs 
 
 ## How a review runs
 
-Ask Claude to help you respond to an opposing motion, and **legal-review** runs this sequence:
+Ask Claude to help you evaluate a document (opposing motion or your own stuff) and **legal-review** runs this sequence:
 
 1. **case-briefing** on the opinions the motion leans on hardest, so the analysis starts from what those cases actually held.
 2. **legal-logic** on the motion itself. You get each material claim broken into numbered steps, the step where it is weakest, the opponent's best defense of that step, and a recommendation to attack or concede.
@@ -36,9 +36,9 @@ Each skill also works on its own. If you only need one case briefed, ask for tha
 
 ## What the checklist looks like
 
-The authority checklist is the piece most lawyers will use first. For every citation instance it records the location, the signal, the proposition in the document's own words, the pincite, whether the document quotes the authority, and a blank column for the person checking. It also lists every statement of law that has no citation at all.
+The authority checklist is the skill most people will use first. For every citation it records the location, the signal, the proposition in the document's own words, the pincite, whether the document quotes the authority, and a blank column for the person checking. It also lists every statement of law that has no citation at all.
 
-The proposition column records what the brief *claims*. The skill is barred from writing what it believes the case holds, even when it suspects the brief is wrong. A suspected problem goes in a separate Notes column marked as an observation to check. A checklist that quietly corrected the brief would be one more unverified source.
+The proposition column records what the brief *claims*. The skill is barred from writing what it believes the case holds, even when it suspects the brief is wrong. A suspected problem goes in a separate Notes column marked as an observation to check.
 
 ## What these skills will not do
 
@@ -46,11 +46,11 @@ They do not find law. They work on the documents and opinions you supply. Any st
 
 They are not a citator. Without access to a citation service, subsequent history is always Unverified.
 
-They do not replace reading the cases. A good case brief tells you what to look for when you open the opinion. It does not mean you can skip opening it.
+They do not replace reading the cases. Can't help you if you don't do the basics.
 
 They do not address jury persuasion. Openings and closings to a jury follow different rules, and the persuasion skill says so if asked.
 
-Nothing here is legal advice. A lawyer who signs a filing is responsible for every word in it, including the words a machine suggested.
+Nothing here is legal advice.
 
 ## Installing
 
