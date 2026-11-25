@@ -78,8 +78,8 @@ See [SOURCES.md](SOURCES.md).
 
 ## About
 
-<!-- TODO: Rick, one short paragraph: who you are, Baylor Law, appellate work, contact or LinkedIn. -->
+I'm Rick, a law student at Baylor Law School. I use AI to become a better lawyer, and to do so responsibly. That currently seems to revolve around making the model show its work: every skill here assumes Claude can be wrong and makes it state explicitly the spots where that can result in big issues. Questions and criticism are welcome.
 
 ## License
 
-<!-- TODO: choose a license. MIT is common for code; CC BY 4.0 suits mostly-prose repositories like this one. -->
+MIT. Use however you see fit. Your use of these tools are your responsibility.
